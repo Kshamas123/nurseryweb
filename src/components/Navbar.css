@@ -1,0 +1,28 @@
+/* .nav-links {
+   //
+  } */
+  
+  .horizontal-nav {
+    list-style-type: none; /* Remove default list styling */
+    padding: 10px; /* Remove default padding */
+    display: flex;
+    background-color:rgb(209, 235, 195); /* Use flexbox to display items horizontally */
+    height: 50px;
+  }
+  
+  .horizontal-nav li {
+    margin-right: 15px; /* Add spacing between navigation items */
+  }
+  
+  .horizontal-nav li:last-child {
+    margin-right: 0; /* Remove margin for the last navigation item */
+  }
+  
+  .horizontal-nav li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #000; /* Set link color */
+  }
+  
+  .horizontal-nav li a:hover {
+    color: #666; /* Change link color on hover */
+  }
